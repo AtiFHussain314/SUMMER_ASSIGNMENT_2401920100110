@@ -1,22 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std ;
-int main (){
-    class Solution {
+class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int,int> map;
+        unordered_map<int,int> track;
 
         for(int i=0;i<nums.size();i++){
             int x = target - nums[i];
 
-           
-         if(map.count(x))
-         return {map[x], i};
+            if(track.count(x))
+                return {track[x], i};
 
-            map[nums[i]] = i;
+            track[nums[i]] = i;
         }
 
         return {};
     }
 };
-}
