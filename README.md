@@ -22,5 +22,3 @@ Each week contains:
 - C++
 - Object-Oriented Programming (OOPS)
 
-## Submission Guidelines
-All solutions are uploaded and maintained according to the assignment instructions.
