@@ -20,5 +20,5 @@ Each week contains:
 
 ## Languages Used
 - C++
-- Object-Oriented Programming (java)
+- Object-Oriented Programming (java and c++)
 
